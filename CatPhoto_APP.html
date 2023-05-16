@@ -2,7 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+  <title>Title</title>
+  <style>
+table, td, th {
+  border: 1px solid black;
+ }
+table {
+  border-collapse: collapse;
+}
+</style>
 </head>
 <body>
 <h1>Cat photo App</h1>
@@ -26,12 +34,28 @@
 <p>cats <strong>hate</strong>  other cats</p>
 <h2>Cat table</h2>
 <table>
-  <tr style="border:1px solid black "><th>cat 1</th>
+  <tr ><th>cat 1</th>
     <th >cat 2</th>
     <th >cat 3</th>
   </tr>
-
-
+  <tr>
+    <td rowspan="2" >Cat-row 1 Cat-col 1</td>
+    <td>Cat-row 1 Cat-col 2</td>
+    <td>Cat-row 1 Cat-col 3</td>
+  </tr>
+  <tr>
+    <td>Cat-row 2 Cat-col 2</td>
+    <td>Cat-row 2 Cat-col 3</td>
+  </tr>
+  <tr>
+    <td colspan="3">Cat-row 3 Cat-col 1</td>
+  </tr>
 </table>
+<h2>Summary</h2>
+<p>
+  <strong>This is strong tag</strong>Lorem ipsum dolor sit amet <strong>This is b tag</strong> consectetur adipisicing elit. Dolores<i>This is i tag</i>  quo ad dolor illum nam delectus error pariatur placeat eaque
+  dolore aliquam fuga unde consequatur <i>This is em tag</i>  sed voluptatibus harum, laudantium a cupiditate eveniet natus amet nostrum ab numquam. Nihil, pariatur a?
+  Obcaecati minus, dignissimos optio qui atque repellendus mollitia aliquid recusandae omnis!
+</p>
 </body>
 </html>
